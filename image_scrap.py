@@ -10,7 +10,7 @@ from PIL import Image
 
 # --- Settings ---
 url = "https://kr.investing.com/indices/us-spx-500-futures?cid=1175153"
-base_folder = "/home/tae-o-lee/stock_predict/code/screenshots"
+base_folder = "path of your screenshot folder"
 output_file = "all_stock_prices.txt"
 
 os.makedirs(base_folder, exist_ok=True)
